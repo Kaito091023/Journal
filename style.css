@@ -76,7 +76,7 @@ body {
 
 .div1 {
     grid-area: 1 / 1 / 2 / 2;
-    text-align: left;
+    text-align: justify;
     padding: 10px;
 }
 
@@ -96,4 +96,5 @@ body {
     grid-area: 2 / 2 / 3 / 3;
     text-align: justify;
     padding: 10px;
+
 }
