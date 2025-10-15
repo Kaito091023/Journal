@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, Arial, Helvetica, Verdana;
+    scroll-behavior: smooth;
+}
+
+body {
+    line-height: 1.8;
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #333;
+    color: white;
+
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.navbar ul li:hover {
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.navbar ul li:active {
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.navbar ul:hover a {
+    color: #575757;
+}
+
+.navbar ul:hover a:hover {
+    color: #ffffff;
+    box-shadow: 0 2px 0 0 currentColor;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s ease;
+}
+
+
+.content h1 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 1px;
+    grid-row-gap: 0px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+    text-align: left;
+    padding: 10px;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+    text-align: justify;
+    padding: 10px;
+}
+
+.div3 {
+    grid-area: 2 / 1 / 3 / 2;
+    text-align: justify;
+    padding: 10px;
+}
+
+.div4 {
+    grid-area: 2 / 2 / 3 / 3;
+    text-align: justify;
+    padding: 10px;
+}
