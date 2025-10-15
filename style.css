@@ -30,15 +30,17 @@ body {
 .navbar ul li {
     margin: 0 10px;
     text-decoration: none;
+    background-color: #2e2e2e;
+    border-radius: 10%;
 }
 
 .navbar ul li:hover {
-    background-color: #333;
+    background-color: #252525;
     border-radius: 5px;
 }
 
 .navbar ul li:active {
-    background-color: #333;
+    background-color: #181818;
     border-radius: 5px;
 }
 
@@ -96,6 +98,4 @@ body {
     grid-area: 2 / 2 / 3 / 3;
     text-align: justify;
     padding: 10px;
-
 }
-
