@@ -62,8 +62,11 @@ body {
 }
 
 .content h2 {
-    align-items: center;
-    justify-content: center;
     text-align: center;
     padding: 20px;    
+    border: solid black 1.3px;
+    max-width: 300px;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 20px auto;
 }
